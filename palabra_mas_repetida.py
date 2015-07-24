@@ -13,10 +13,10 @@ old = ['rt', 'in', 'the', 'to', 'a', 'of', 'ty!', 'is', 'de', 'and', 'for',
 'with', 'on', 'you', 'via', 'en', 'that', 'your', '-', 'by', 'mayweather',
 'pacquiao', 'at', 'la', 'be', 'floyd', 'it', '']
 
-CONSUMER_KEY = 'e8xgYamMbuj0j7oQg9e5FB0EN'
-CONSUMER_SECRET ='i8qOSXbP4ZvqkfmegkTku3mAJDfNkHN0eYhktYm49E8GrN5zCv'
-OAUTH_TOKEN = '364134847-FHTRfjYR4tvx53zur7Ymtaf73NdqEndQxS5yYgCT'
-OAUTH_TOKEN_SECRET = 'OiSTgCA7IBmRipnGpzUsB8wGF27EWe2u2agTmk1v4vrhV'
+CONSUMER_KEY = ''
+CONSUMER_SECRET =''
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN,  OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
