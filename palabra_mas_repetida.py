@@ -7,10 +7,10 @@ import twitter
 from collections import Counter # Find frequency
 
 def login():
-    CONSUMER_KEY = 'haEX0fdUKvGr4mZN5QKCen5wW'
-    CONSUMER_SECRET ='iutVX50m779vrCKlwZOT7P9t7R7xsiuKdqwX1HrlZ7hsLH8fpV'
-    OAUTH_TOKEN = '364134847-l30NEX77b8uOK5iHb1lmNHIbzv0Lj0pi1YZhRnGQ'
-    OAUTH_TOKEN_SECRET = 'jLa1MpoSXdewP8yIR8Jbpm1Eo1YfglY1e2tmcOyFlTMPv'
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET =''
+    OAUTH_TOKEN = ''
+    OAUTH_TOKEN_SECRET = ''
     auth = twitter.oauth.OAuth(OAUTH_TOKEN,  OAUTH_TOKEN_SECRET,
                                CONSUMER_KEY, CONSUMER_SECRET)
     return twitter.Twitter(auth=auth)
